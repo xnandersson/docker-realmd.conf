@@ -2,5 +2,5 @@
   "default_realm" : "OPENFORCE.ORG",
   "kerberos_servers" : "dc.openforce.org",
   "admin_server" : "dc.openforce.org",
-  "password" : "Secret007!",
+  "password" : "Secret007!"
 }

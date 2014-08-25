@@ -5,7 +5,7 @@ class realmd::join {
 
   exec { 'realmd':
     command => "/usr/sbin/realm join $default_realm",
-    require => [Package['realmd'],File['/etc/realmd.conf'],Exec['kinit'],
+    require => [Package['realmd'],File['/etc/realmd.conf'],Exec['kinit']],
   }
 
   exec { 'kinit':

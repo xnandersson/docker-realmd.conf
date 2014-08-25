@@ -1,0 +1,9 @@
+:backends:
+  - json
+:hierarchy:
+  - defaults
+  - global
+:yaml:
+  :datadir: /etc/puppet/data
+:json:
+  :datadir: /etc/puppet/data
